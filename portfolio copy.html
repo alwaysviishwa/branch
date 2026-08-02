@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        header {
+            background-color: #816161;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 10px 0;
+        }
+
+        header button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #3f4d5d;
+            color: rgb(169, 142, 142);
+            border: none;
+            cursor: pointer;
+        }
+
+        header button a {
+            color: rgb(247, 247, 247);
+            text-decoration: none;
+        }
+        
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            color: #aa7575;
+            margin-bottom: 10px;
+        }
+        section p {
+            line-height: 2;
+        }
+        section form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        section form label {
+            margin-bottom: 10px;
+
+        }
+        section form input,
+
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 10px 0;
+        }
+        img{
+            position: absolute;
+            left: 925px;
+            right: 50px;
+            bottom: 153px;
+           margin: 200px;
+        
+        }
+        
+        img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+         <img src="giyu.png" alt="Profile Picture" width="210" height="150">
+        <h4>Hello I'm </h4>
+        <h1>Nagireddy Kasi Vishwanadham </h1>
+        <h4>Frontend Developer</h4>
+       <button><a href="#about" >About</a></button>
+       <button><a href="#Education" >Education</a></button>
+        <button><a href="#Skills" >Skills</a></button>
+        <button><a href="#Projects" >Projects</a></button>
+        <button><a href="#Enquiry" >Enquiry</a></button> 
+         
+    </header>
+
+    <main>
+        <section id ="about">
+            <h2>About</h2>
+            <p>I am a student pursuing a degree in Computer Science with a focus on web development at <em>KL University</em>. I have a basic foundation in HTML, CSS, and JavaScript, and I am always eager to learn new technologies and improve my skills. Apart from all these things I'm interested in <em>video editing </em> and <em> creation </em> and travelling across the world.</p>
+
+        </section>
+
+        <section id = "Education">
+        <h2>Education</h2>
+        <p>I finished my high school education at <em>govt. High School </em> located in my village Chemudulanka. I completed my intermediate education at <em>Aditya Junior College</em> which is located in Rajahmundry Danavaipeta. I am currently pursuing a degree in Computer Science at <em>KL University</em>.</p>
+
+        <section id = "Skills">
+            <h2>Skills</h2>
+            <p>I have a basic understanding of HTML, CSS, and JavaScript. I am also familiar with version control systems like Git and GitHub. I am constantly learning and improving my skills in web development.</p>
+
+
+
+        </section>
+
+        <section id = "Projects">
+            <h2>Projects</h2>
+            <p>I have worked on several small projects during my studies, including a personal portfolio website and a simple to-do list application. I am always looking for new opportunities to work on interesting projects and gain more experience in web development.</p>
+
+
+
+        </section>
+         <section id = "Enquiry">
+            <h2>Enquiry</h2>
+            <form >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required> <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required> <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea> <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2024 All rights reserved.</p>
+
+    </footer>
+
+</body>
+</html>
